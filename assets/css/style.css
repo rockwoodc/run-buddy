@@ -291,6 +291,17 @@ header nav ul li a {
       background: #024e76;
     }
 
+    .contact-padding{
+      margin: 10px 0px 10px;
+      width: 95%;
+      padding: 8px;
+    }
+
+   #contact-message{
+      margin: 10px 0px 10px;
+      width: 95%
+    }
+
     .contact h2{
       color: #fce138;
     }
