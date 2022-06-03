@@ -55,21 +55,25 @@
                 <label for="name">Enter a telephone number:</label>
                 <input type="tel" placeholder="Phone number" name="phone" id="phone" class="form-input"/>
 
-                <p>
-                    Have you worked out with a trainer before?
-                    <input type="radio" name="trainer- confirm" id="trainer-yes"/>
-                    <label for="trianer-yes">Yes</label>
+              <p>
+                Have you worked out with a trainer before?
+                <span class="radio-wrapper">
+                  <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                  <label for="trianer-yes">Yes</label>
+                </span>
 
-                    <input type="radio" name="trainer- confirm" id="trainer-no"/>
-                    <label for="trianer-no">No</label>
-                </p>
+                <span class="radio-wrapper">
+                  <input type="radio" name="trainer-confirm" id="trainer-no" />
+                  <label for="trianer-no">No</label>
+                </span>
+              </p>
 
-                <p>
-                    <label for="checkbox" >
-                        I acknowledge that I am at least 18 years of age.
-                    </label>
-                    <input type="checkbox" name="age- confirm" id="checkbox"/>
-                </p>
+              <p>
+                <span class="checkbox-wrapper"> 
+                  <input type="checkbox" name="age-confirm" id="checkbox"/>
+                  <label for="checkbox">I acknowledge that I am at least 18 years of age. </label>
+                </span> 
+              </p>
 
                 <button type="submit">
                     Get running!
