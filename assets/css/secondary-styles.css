@@ -8,20 +8,25 @@
     margin-bottom: 40px;
   }
 
-  header nav {
-    float: right;
-    margin: 7px 0;
-}
+  .header {
+    padding-bottom: 0;
+    justify-content: center;
+  }
 
-header nav ul li {
-  display: inline;
-}
+  .header h1 {
+    width: 100%;
+    text-align: center;
+  }
 
-header nav ul li a {
-  margin: 0 30px;
-  font-weight: lighter;
-  font-size: 22px;
-}
+  .header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .header nav ul li a {
+    font-size: 20px;
+  }
   
   .page-title {
     color: #fce138;
